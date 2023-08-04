@@ -1,0 +1,7 @@
+{% extends 'defaultAdmin/base.html' %}
+
+{% block content %}
+
+    <img style="height: 30px; width: 30px" class="rounded-circle" src="{{ user.profile.profile_picture.url }}" alt="{{ user.profile.profile_picture.url }}">
+{% endblock %}
+
